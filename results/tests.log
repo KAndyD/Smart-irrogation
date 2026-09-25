@@ -1,0 +1,9 @@
+test_crowding_boundaries (test_model.TestNSGA.test_crowding_boundaries) ... ok
+test_equal_budget_bounds_and_determinism (test_model.TestNSGA.test_equal_budget_bounds_and_determinism) ... ok
+test_fronts_against_hand_computed_example (test_model.TestNSGA.test_fronts_against_hand_computed_example) ... ok
+test_water_balance (test_model.TestNSGA.test_water_balance) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.023s
+
+OK
