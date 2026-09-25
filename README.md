@@ -82,7 +82,7 @@ python main.py --config config.json --runs 20 --seed 261400 --output my_results
 | `data/` | Фиксированные входные данные (если нужны) |
 | `results/` | CSV, JSON, PNG, журнал эксперимента и тестов |
 | `tests/` | Проверки математических свойств и реализации |
-| `.github/workflows/tests.yml` | Тесты и пробный запуск при push / pull request |
+| `tests.yml` | Тесты и пробный запуск при push / pull request |
 
 
 
