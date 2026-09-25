@@ -11,7 +11,11 @@
 
 На каждом шаге:
 
-$$R_t=S_{t-1}+u_t+r_t-e_t,\quad S_t=\operatorname{clip}(R_t,0,45).$$
+$$
+R_t = S_{t-1} + u_t + r_t - e_t,
+\qquad
+S_t = \min\left(45,\max\left(0,R_t\right)\right).
+$$
 
 Минимизируются одновременно:
 
